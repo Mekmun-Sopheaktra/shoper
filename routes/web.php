@@ -129,6 +129,8 @@
         })->name('file-manager');
         // user route
         Route::resource('users', 'UsersController');
+        // Page
+        Route::resource('page', 'PageController');
         // Banner
         Route::resource('banner', 'BannerController');
         // Brand

@@ -3,9 +3,16 @@
 <!-- Title Tag  -->
 <title>@yield('title')</title>
 <!-- Favicon -->
-<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="icon" type="image/png" href="https://mekmunsopheaktra.com/assets/images/favicon.png">
 <!-- Web Font -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+<meta property="og:site_name" content="Shoper" />
+<meta property="og:title" content="Shoper." />
+<meta property="og:description" content="Shoper wth Us." />
+<meta property="og:image" content="https://mekmunsopheaktra.com/assets/img/root/favicon.png" />
+<meta property="og:type" content="shop" />
+<meta property="og:url" content="https://shoper.mekmunsopheaktra.com/" />
 
 <!-- StyleSheet -->
 <link rel="manifest" href="/manifest.json">

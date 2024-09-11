@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title','E-SHOP || HOME PAGE')
+@section('title','Shoper || HOME PAGE')
 @section('main-content')
 <!-- Slider Area -->
 @if(count($banners)>0)
@@ -534,7 +534,7 @@
         }
 
         #Gslider .carousel-inner{
-        height: 550px;
+        height: 700px;
         }
         #Gslider .carousel-inner img{
             width: 100% !important;
@@ -542,7 +542,7 @@
         }
 
         #Gslider .carousel-inner .carousel-caption {
-        bottom: 60%;
+        bottom: 40%;
         }
 
         #Gslider .carousel-inner .carousel-caption h1 {
